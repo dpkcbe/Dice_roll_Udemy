@@ -9,9 +9,9 @@ var image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src", randomImage2);
 
 if (a > b) {
-    document.querySelector("h1").innerHTML = "Yayy! Player1 Won!";
+    document.querySelector("h1").innerHTML = "Player1 Won! Hurray!";
 } else if (a < b) {
-    document.querySelector("h1").innerHTML = "Yayy! Player2 Won!";
+    document.querySelector("h1").innerHTML = "Player2 Won! Hurray!";
 } else {
     document.querySelector("h1").innerHTML = "Its a draw!!";
 }
